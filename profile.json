@@ -1,0 +1,51 @@
+{
+ "ucp": {
+  "version": "2026-08-25",
+  "services": {
+   "dev.ucp.shopping": [
+    {
+     "version": "2026-08-25",
+     "spec": "https://ucp.dev/2026-08-25/specification/overview/",
+     "transport": "mcp",
+     "endpoint": "https://notnikhil-maren-b.myshopify.com/api/ucp/mcp",
+     "schema": "https://ucp.dev/2026-08-25/services/shopping/mcp.openrpc.json"
+    }
+   ]
+  },
+  "capabilities": {
+   "dev.ucp.shopping.checkout": [
+    {
+     "version": "2026-08-25",
+     "spec": "https://ucp.dev/2026-08-25/specification/shopping/checkout/",
+     "schema": "https://ucp.dev/2026-08-25/schemas/shopping/checkout.json"
+    }
+   ],
+   "dev.ucp.shopping.cart": [
+    {
+     "version": "2026-08-25",
+     "spec": "https://ucp.dev/2026-08-25/specification/shopping/cart/",
+     "schema": "https://ucp.dev/2026-08-25/schemas/shopping/cart.json"
+    }
+   ],
+   "dev.ucp.shopping.catalog.search": [
+    {
+     "version": "2026-08-25",
+     "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/",
+     "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog.json"
+    }
+   ]
+  },
+  "payment_handlers": {},
+  "keys": [
+   {
+    "kid": "2Nzv2ZyhKl1Wf0s8USVfMt2io2tuUjau8CFsTbFyJNw",
+    "kty": "EC",
+    "crv": "P-256",
+    "x": "k-HuxPwGOMBtPshDr_hDojXU2PVn8kbePPIgQnK7j0k",
+    "y": "VykDLDbCzIlOKs3V88NWWA0voW9heCpVqATzv-xQC9I",
+    "use": "sig",
+    "alg": "ES256"
+   }
+  ]
+ }
+}
